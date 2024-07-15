@@ -1,0 +1,18 @@
+{
+  "name": "music-oasis-crafters",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "serve": "^14.2.3"
+  }
+}
