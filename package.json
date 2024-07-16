@@ -1,18 +1,18 @@
 {
   "name": "music-oasis-crafters",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "public/js/index.js",
   "scripts": {
-    "start": "serve public"
+    "start": "serve public",
+    "build:dev": "tsc -w",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "serve": "^14.2.3",
     "typescript": "^5.5.3"
-  },
-  "dependencies": {
-    "serve": "^14.2.3"
   }
 }
