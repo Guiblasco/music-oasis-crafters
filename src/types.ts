@@ -6,5 +6,5 @@ export type Disc = {
   discFormat: "Vinyl" | "Digital";
   price: number;
   originalPrice: number;
-  isMonthlyDisc: boolean;
+  isDiscOfTheMonth: boolean;
 };
