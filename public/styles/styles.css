@@ -7,8 +7,6 @@ body {
 }
 
 .header-navigation {
-  margin: 0;
-  padding: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -16,7 +14,7 @@ body {
 }
 
 .header-navigation-links {
-  height: 61px;
+  height: 3.813rem;
   list-style: none;
 }
 
@@ -29,9 +27,11 @@ body {
     flex: 1;
     border-right: 1px solid #e6e6e6;
   }
+
   &:nth-child(2) {
     flex: 4;
   }
+
   &:nth-child(3) {
     flex: 1;
     border-left: 1px solid #e6e6e6;
