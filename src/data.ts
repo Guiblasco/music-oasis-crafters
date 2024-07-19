@@ -1,2 +1,3 @@
 import { Disc } from "./types";
-const discsCollection: Disc[] = [];
+
+const discs: Disc[] = [];
