@@ -3,8 +3,8 @@ export type Disc = {
   name: string;
   artistName: string;
   imageUrl: string;
-  discFormat: "Vinyl" | "Digital";
   price: number;
   originalPrice: number;
+  discFormat: "Vinyl" | "Digital";
   isDiscOfTheMonth: boolean;
 };
