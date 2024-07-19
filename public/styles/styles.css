@@ -1,0 +1,35 @@
+:root {
+  --main-color: #1f2c4d;
+  --secondary-color: #6b7999;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.05rem;
+  color: var(--main-color);
+}
+
+.central-container {
+  margin: 0 auto;
+  padding: 18px 18px;
+}
+
+.content-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.title-section {
+  text-align: center;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  margin-bottom: 40px;
+}
