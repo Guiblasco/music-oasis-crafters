@@ -22,32 +22,12 @@ body {
   }
 }
 
-.container-list {
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  width: 90vw;
-  border-color: #900;
-  border-style: dashed;
-
-  @media (width >= 800px) {
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-  }
+.cards-list {
+  padding: 0 16px;
 }
+
 .container-card {
-  height: 502px;
-  border-color: blue;
-  border-style: dotted;
-  margin-bottom: 20px;
-}
-
-.disc-card {
-  border: #6b7999;
-  border-style: double;
-  width: 375px;
-  height: 375px;
+  list-style-type: none;
 }
 
 .content-section {
