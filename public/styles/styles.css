@@ -16,12 +16,15 @@ body {
 .central-container {
   margin: 0 auto;
   padding: 18px;
+
+  @media (width >= 400px) {
+    width: 80vw;
+  }
 }
 
 .content-section {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-content: center;
 }
 
@@ -29,6 +32,5 @@ body {
   text-align: center;
   font-weight: 700;
   font-size: 28px;
-  line-height: 34px;
   margin-bottom: 40px;
 }
