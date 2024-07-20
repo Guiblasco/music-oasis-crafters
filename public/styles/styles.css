@@ -22,6 +22,21 @@ body {
   }
 }
 
+.container-list {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 90vw;
+  border-color: #900;
+  border-style: dashed;
+}
+.container-card {
+  height: 502px;
+  border-color: blue;
+  border-style: dotted;
+  margin-bottom: 20px;
+}
+
 .content-section {
   display: flex;
   flex-direction: column;
