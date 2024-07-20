@@ -13,12 +13,12 @@ body {
   border-bottom: 1px solid #e6e6e6;
 }
 
-.header-navigation-links {
+.header-navigation-link {
   height: 3.813rem;
   list-style: none;
 }
 
-.header-navigation-links {
+.header-navigation-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,14 +26,40 @@ body {
   &:nth-child(1) {
     flex: 1;
     border-right: 1px solid #e6e6e6;
+
+    @media (width >= 700px) {
+      gap: 10px;
+    }
   }
 
   &:nth-child(2) {
     flex: 4;
+
+    @media (width >= 700px) {
+      gap: 10px;
+      text-transform: uppercase;
+      font-weight: 600;
+
+      span {
+        color: red;
+      }
+    }
   }
 
   &:nth-child(3) {
     flex: 1;
     border-left: 1px solid #e6e6e6;
+
+    @media (width >= 700px) {
+      gap: 10px;
+    }
+  }
+}
+
+.header-navigation-text {
+  display: none;
+
+  @media (width >= 700px) {
+    display: inline;
   }
 }
