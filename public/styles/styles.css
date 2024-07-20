@@ -34,3 +34,35 @@ body {
   font-size: 28px;
   margin-bottom: 40px;
 }
+
+.header-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.header-navigation-links {
+  height: 3.813rem;
+  list-style: none;
+}
+
+.header-navigation-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:nth-child(1) {
+    flex: 1;
+    border-right: 1px solid #e6e6e6;
+  }
+
+  &:nth-child(2) {
+    flex: 4;
+  }
+
+  &:nth-child(3) {
+    flex: 1;
+    border-left: 1px solid #e6e6e6;
+  }
+}
