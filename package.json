@@ -2,16 +2,21 @@
   "name": "music-oasis-crafters",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "serve public",
     "build:dev": "tsc -w",
-    "build": "tsc"
+    "build": "tsc",
+    "prepare": "husky"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "husky": "^9.1.1",
     "serve": "^14.2.3",
     "typescript": "^5.5.3"
   }
