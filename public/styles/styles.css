@@ -100,3 +100,13 @@ body {
     display: inline;
   }
 }
+
+.cards-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-image {
+  border-radius: 10px;
+}
