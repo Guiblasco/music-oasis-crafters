@@ -92,3 +92,26 @@ body {
     display: inline;
   }
 }
+
+/* Esto estila el input y el placeholder */
+.header-search {
+  /* si descomentas esta línea, aparecerá en el viewport */
+  /* display: none; */
+
+  .search-box {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.813rem;
+    border: none;
+
+    &::placeholder {
+      color: #1f2c4d;
+    }
+  }
+
+  /* 
+  aquí tendremos que poner que si no tiene la clase hidden, que el display sea block/inline, entiendo
+  &:not(.hidden) {
+    
+  } */
+}
